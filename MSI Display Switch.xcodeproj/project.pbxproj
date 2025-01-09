@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		71A2C1342D301A8900EBF539 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 71A2C1332D301A8900EBF539 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		71005EF62D2EE21F00EB5CC5 /* MSI Display Switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MSI Display Switch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A2C1332D301A8900EBF539 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		71005EED2D2EE21F00EB5CC5 = {
 			isa = PBXGroup;
 			children = (
+				71A2C1332D301A8900EBF539 /* README.md */,
 				71005EF82D2EE21F00EB5CC5 /* MSI Display Switch */,
 				71005EF72D2EE21F00EB5CC5 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A2C1342D301A8900EBF539 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
