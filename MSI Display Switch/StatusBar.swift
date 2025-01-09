@@ -2,7 +2,7 @@
 //  StatusBar.swift
 //  MSI Display Switch
 //
-//  Created by Валерий Агишев on 09.01.2025.
+//  Created by Phaseowner on 09.01.2025.
 //
 
 import SwiftUI
@@ -18,7 +18,7 @@ struct StatusBar: Scene {
     private let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     var body: some Scene {
-        MenuBarExtra("a", systemImage: "gift.circle") {
+        MenuBarExtra("MSI Display Switch", systemImage: "display") {
             VStack {
                 Button("DisplayPort") { self.onDisplayPort() }
                     .disabled(!self._connected)

@@ -2,7 +2,7 @@
 //  MSIDisplaySwitchApp.swift
 //  MSI Display Switch
 //
-//  Created by Валерий Агишев on 08.01.2025.
+//  Created by Phaseowner on 08.01.2025.
 //
 
 import SwiftUI
@@ -11,7 +11,6 @@ import IOKit.usb
 import os.log
 
 let logger = Logger()
-
 
 class DisplayController {
     static let singleton = DisplayController()
